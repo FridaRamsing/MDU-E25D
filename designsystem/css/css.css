@@ -8,7 +8,7 @@
 
 /* Fonten eller fontene importeres */
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Lacquer&family=Permanent+Marker&family=Ribeye&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&display=swap');
 /*
 Sådan bruger du fontene, her "Permanent marker"
 
@@ -31,11 +31,14 @@ Sådan bruger du fontene, her "Permanent marker"
 :root {
 
   /* farver */
-  --farve_1: rgb(229, 241, 229); /* Lys */
-  --farve_2: #150202; /* Mørkest */
-  --farve_3: #27c4c6;
-  --farve_4: #c627c4;
+  --farve_1: #220d0a; /* Mørkeste */
+  --farve_2: #e5cebb; /* Lyseste */
+  --farve_3: #642015;
+  --farve_4: #a40907;
   --farve_5: #c62a27;
+  --farve_6: #a84f24;
+  --farve_7: #cb9aa6;
+  --farve_8: #24b0b3;
   /* ... etc ... */
 
   /* typografi */
@@ -58,8 +61,8 @@ Sådan bruger du fontene, her "Permanent marker"
 /* Fra body nedarved farver og fonte til resten af siden */
 body {
   font-family: var(--broedtekst);
-  background-color: var(--farve_1);
-  color: var(--farve_2);
+  background-color: var(--farve_2)
+  color: var(var(--farve_2));
 }
 
 /* Når du vil lave kolonner */
@@ -114,17 +117,64 @@ img {
   color: var(--farve_3);
 }
 
+/* Farve 4 som baggrund */
+
+.farve_4_bg {
+  background-color: var(--farve_4);
+}
+.farve_4_color {
+  color: var(--farve_4);
+}
+
+/* Farve 5 som baggrund */
+
+.farve_5_bg {
+  background-color: var(--farve_5);
+}
+.farve-5_color {
+  color: var(--farve_5);
+}
+/* Farve 6 som baggrund */
+
+.farve_6_bg {
+  background-color: var(--farve_6);
+}
+.farve_6_color {
+  color: var(--farve_6);
+}
+
+/* Farve 7 som baggrund */
+.farve_7_bg {
+  background-color: var(--farve_7);
+}
+.farve_7_color {
+  color: var(--farve_7);
+}
+/* Farve 8 som baggrund */
+.farve_8_bg {
+  background-color: var(--farve_8);
+}
+.farve_8_color {
+  color: var(--farve_8);
+} 
+
 /* fortsæt selv ... alle farver skal med ... */
 
 /* TYPOGRAFI */
 h1, 
 h2 {
   font-family: var(--overskrifter);
+  color: var(--farve_3)
 }
+
+h1 {font-family: Libertinus Keyboard;
+}
+h1{font-size: 3.8rem;}
 
 h2 {
   margin-top: 2rem;
   margin-bottom: .5rem;
+  background-color: var(--farve_2)
 }
 
 /* LAYOUT */
@@ -135,7 +185,7 @@ h2 {
 */
 nav {
   min-height: 10vh;
-  background-color: var(--farve_5);
+  background-color: var(--farve_2)
 }
 
 nav ul {
@@ -149,8 +199,9 @@ nav ul li {
 }
 
 nav a {
-  color: var(--farve_1);
+  color: var(--farve_3));
 }
+
 
 /* Logo */
 /* Giv dit logo en passende bredde */
@@ -165,7 +216,7 @@ header {
   min-height: 21vh; /* min-heigt: kan udviddes når nødvendigt */
   align-content: center;
   text-align: center;
-  background-color: var(--farve_5);
+  background-color: var(--farve_2);
   color: var(--farve_1);
 }
 
