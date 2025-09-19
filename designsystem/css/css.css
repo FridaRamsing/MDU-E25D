@@ -7,8 +7,8 @@
 /* Sådan importerer du direkte til css */
 
 /* Fonten eller fontene importeres */
-@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Lacquer&family=Permanent+Marker&family=Ribeye&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Libertinus+Keyboard&display=swap');
 /*
 Sådan bruger du fontene, her "Permanent marker"
 
@@ -31,14 +31,13 @@ Sådan bruger du fontene, her "Permanent marker"
 :root {
 
   /* farver */
-  --farve_1: #220d0a; /* Mørkeste */
-  --farve_2: #e5cebb; /* Lyseste */
-  --farve_3: #642015;
-  --farve_4: #a40907;
-  --farve_5: #c62a27;
-  --farve_6: #a84f24;
-  --farve_7: #cb9aa6;
-  --farve_8: #24b0b3;
+  --farve_1: #000000; /* Mørkeste */
+  --farve_2: #8D664F; /* Lyseste */
+  --farve_3: #BC8F5F;
+  --farve_4: #F0EAE2;
+  --farve_5: #828B73;
+  --farve_6: #C67F7B;
+  --farve_7: #B296AC;
   /* ... etc ... */
 
   /* typografi */
